@@ -4,7 +4,7 @@ NLP teaching material for the KCL Department of Biostatistics & Health Informati
 
 
 ## Exercise 1 - Shakespeare's plays as vectors
-(Original idea from Jurafsky and Martin, [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/)), Draft 3rd Edition.
+Original idea from Jurafsky and Martin, [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/), Draft 3rd Edition.
 
 We will start by looking at how we might represent documents. We are going to do a simple analysis of Shakespeare's plays, which are available in digital form from a USA library, the [Folger Shakespeare Library](https://www.folger.edu/explore/shakespeares-works/download/). We will look at the plain text of four plays:
 
