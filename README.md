@@ -10,16 +10,16 @@ NLP teaching material for the KCL Department of Biostatistics & Health Informati
 
 ## Exercise 2 - Words in context
 
-[Python notebook exercise](./plot_contexts.ipynb)
+[Python notebook exercise](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//plot_contexts.ipynb)
 
 ## Exercise 3 - Playing with word embeddings
 
-[Word embedding exercise](./embeddings.ipynb)
+[Word embedding exercise](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/embeddings.ipynb)
 
 
 ## Exercise 4 - Building a perceptron
 
-[Experiments with a single neuron](./perceptron.ipynb)
+[Experiments with a single neuron](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//perceptron.ipynb)
 
 ## Exercise 5 - Multilayer Neural Networks
 
@@ -27,5 +27,5 @@ NLP teaching material for the KCL Department of Biostatistics & Health Informati
 
 ## Exercise 6 - Generative AI
 
-[Connecting to Huggin Face](./hugging_face.ipynb)
-[Experiments with Llama](./llama.ipynb)
+[Connecting to Huggin Face](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//hugging_face.ipynb)
+[Experiments with Llama](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//llama.ipynb)
