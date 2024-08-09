@@ -19,7 +19,7 @@ NLP teaching material for the KCL Department of Biostatistics & Health Informati
 
 ## Exercise 4 - Building a perceptron
 
-[Experiments with a single neuron](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//perceptron.ipynb)
+[Experiments with a single neuron](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//perceptrons.ipynb)
 
 ## Exercise 5 - Multilayer Neural Networks
 
@@ -27,5 +27,5 @@ NLP teaching material for the KCL Department of Biostatistics & Health Informati
 
 ## Exercise 6 - Generative AI
 
-[Connecting to Huggin Face](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//hugging_face.ipynb)
-[Experiments with Llama](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//llama.ipynb)
+- [Connecting to Huggin Face](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//hugging_face.ipynb)
+- [Experiments with Llama](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//llama.ipynb)
