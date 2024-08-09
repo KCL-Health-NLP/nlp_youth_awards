@@ -4,8 +4,14 @@ NLP teaching material for the KCL Department of Biostatistics & Health Informati
 
 
 ## Exercise 1 - Shakespearian vectors
+(Oriignal idea from [https://web.stanford.edu/~jurafsky/slp3/] Jurafsky and Martin, Speech and Language Processing, Draft 3rd Edition())
 
 [Online Shakespeare texts](https://www.folger.edu/explore/shakespeares-works/download/)
+
+- As You Like It
+- Twelfth Night
+- Julius Caesar
+- Henry V
 
 
 ## Exercise 2 - Words in context
