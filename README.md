@@ -8,10 +8,10 @@ NLP teaching material for the KCL Department of Biostatistics & Health Informati
 
 [Online Shakespeare texts](https://www.folger.edu/explore/shakespeares-works/download/)
 
-- As You Like It
-- Twelfth Night
-- Julius Caesar
-- Henry V
+- [As You Like It](https://flgr.sh/txtfssAYLtxt)
+- [Twelfth Night](https://flgr.sh/txtfssTN_txt)
+- [Julius Caesar](https://flgr.sh/txtfssJC_txt)
+- [Henry V](https://flgr.sh/txtfssH5_txt)
 
 
 ## Exercise 2 - Words in context
