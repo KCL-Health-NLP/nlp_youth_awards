@@ -27,5 +27,5 @@ NLP teaching material for the KCL Department of Biostatistics & Health Informati
 
 ## Exercise 6 - Generative AI
 
-- [Connecting to Huggin Face](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//hugging_face.ipynb)
+- [Connecting to Hugging Face](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//hugging_face.ipynb)
 - [Experiments with Llama](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//llama.ipynb)
