@@ -29,7 +29,7 @@ We have written a Python notebook to examine these words:
 [Word embedding exercise](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/embeddings.ipynb)
 
 
-## Exercise 4 - Building a perceptron
+## Exercise 4 - Building and training a single neuron (a perceptron)
 
 [Experiments with a single neuron](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//perceptrons.ipynb)
 
