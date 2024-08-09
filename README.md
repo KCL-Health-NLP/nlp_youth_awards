@@ -3,7 +3,7 @@
 NLP teaching material for the KCL Department of Biostatistics & Health Informatics Youth Awards Programme
 
 
-## Exercise 1 - Shakespearian vectors
+## Exercise 1 - Shakespeare's plays as vectors
 (Oriignal idea from [Jurafsky and Martin, Speech and Language Processing, Draft 3rd Edition](https://web.stanford.edu/~jurafsky/slp3/))
 
 [Online Shakespeare texts](https://www.folger.edu/explore/shakespeares-works/download/)
@@ -14,7 +14,7 @@ NLP teaching material for the KCL Department of Biostatistics & Health Informati
 - [Henry V](https://flgr.sh/txtfssH5_txt)
 
 
-## Exercise 2 - Words in context
+## Exercise 2 - Word context vectors
 
 [Python notebook exercise](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//plot_contexts.ipynb)
 
