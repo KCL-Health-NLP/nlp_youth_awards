@@ -94,9 +94,11 @@ You can use this spreadsheet with the Python notebook below to build and explore
 The simple word and document vectors we built above can be used in NLP and information retrieval applications, but they have a few shortcomings, and better distributional semantics solutions exist: **word embeddings**. Whereas the vectors we have looked at so far are high dimensional with integer values, word embeddings are much lower dimensional (maybe a few hundred dimensions), with real number values. The most popular of these is Google's [Word2Vec](https://www.tensorflow.org/text/tutorials/word2vec) and Stanford University's [GloVe](https://nlp.stanford.edu/projects/glove/). We will use both of these in the practical below.
 
 **Presentation**
+This presentation gives a high level, intuitive overview of word embeddings. For more details, and information on how they are built, see the links above and Chapter 6 in [Jurafsky and Martin](https://web.stanford.edu/~jurafsky/slp3/)
 - [Word embeddings](./presentations/word-embeddings.pdf) 
 
 **Practical**
+In this practical, you will create a word embedding from a small corpus and test it. It won't be very good! Then you will load an embedding that has been pre-trained on a much bigger corpus, to see the difference this makes.
 
 - [Word embeddings - Python notebook](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/embeddings.ipynb)
 
@@ -104,13 +106,24 @@ The simple word and document vectors we built above can be used in NLP and infor
 ## Neural networks
 [[back to top]](#start-of-content)
 
-**Presentation**
+We now have some ideas of how we might represent words and language numerically, encoding some aspects of meaning. We could use these representations in the type of models you will have seen in the prediction modelling part of the Youth Awards. For example, you could build a model that takes document vectors of product reviews as input, and predicts whether the review is a positive or negative one. Or, you might take vectors representing medical record sentences and predict whether the sentence is about a particular symptom. 
+
+Many modern NLP models make use of neural networks to do this kind of prediction. We will introduce and buid simple neural networks with a presentation and a couple of practials, and ask: how might we use these with words and language?
+
+**Presentation 1**
+In this presentation we introduce a single artificial neuron, called a perceptron. 
 - [Neural networks](./presentations/neural-networks.pdf) 
 
-
-**Practicals**
+**Practical 1**
+In this practical, we build a perceptron and use it to model some simple problems.
 - [Experiments with a single neuron](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/perceptrons.ipynb)
+
+**Presentation 2**
+- [Neural networks](./presentations/neural-networks.pdf) 
+
+**Practical 2**
 - [Neural network playground](https://playground.tensorflow.org/)
+
 
 ## Generative AI
 [[back to top]](#start-of-content)
