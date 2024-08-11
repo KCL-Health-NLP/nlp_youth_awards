@@ -1,6 +1,8 @@
-# King's College London Institute of Psychiatry, Psychology and Neuroscience
-# Biostatistics and Health Infromatics Youth Awards Programme
 # Natural Language Processing
+---
+**King's College London Institute of Psychiatry, Psychology and Neuroscience
+Biostatistics and Health Infromatics Youth Awards Programme**
+---
 
 - This repository contains all the material you will need for the NLP day on the Biostatistics and Health Informatics Youth Awards Programme
 - The day will consist six practicals introducing some topics in NLP and neural networks
