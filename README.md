@@ -74,17 +74,17 @@ We've seen how to represent documents as vectors, but what about words themselve
 
 - [Presentation: distributional semantics](./presentations/distributional-semantics.pdf) 
 
-We will demonstrate the idea of word context and counting how many times words appear together by using the linguistic search engine that finds and lists all contexts in which a word appears, and counts the number of times other words apear next to it (i.e. the word's collocates).
+We will demonstrate the idea of word context and counting how many times words appear together by using a linguistic search engine that finds and lists all contexts in which a word appears, and counts the number of times other words appear next to it (i.e. the word's collocates).
 
-- [WebCorp](https://www.webcorp.org.uk/)
+- [Demonstration: WebCorp](https://www.webcorp.org.uk/)
 
 **Practical**
 
-We will then build word vectors using the [iWeb corpus](https://www.english-corpora.org/iweb/): a corpus of 14 billion words in 22 million systematically selected English language web pages. This can be searched and analysed using the tools at [English-Corpora.org](https://www.english-corpora.org/). We have used these tools to look at a few words, and to find what other words appear in their context (on the same web page). We have saved these in a spreadsheet, which has one sheet for each of our words:
+This practical builds word vectors using data from the [iWeb corpus](https://www.english-corpora.org/iweb/): a corpus of 14 billion words in 22 million systematically selected English language web pages. This can be searched and analysed using the tools at [English-Corpora.org](https://www.english-corpora.org/). We have used these tools to look at a few words, and to find what other words appear in their context (on the same web page). We have saved these in a spreadsheet, which has one sheet for each of our words:
 
 - [Word context data](./practicals/contexts.xlsx) (click the "View raw" button to download, tnen open on your computer)
 
-Use this spreadsheet with the Python notebook below to build word vectors:
+Use this spreadsheet with the Python notebook below to build and explore some word vectors:
 
 - [Vector semantics - Python notebook](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/plot_contexts.ipynb)
 
