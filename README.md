@@ -74,22 +74,24 @@ We've seen how to represent documents as vectors, but what about words themselve
 
 - [Presentation: distributional semantics](./presentations/distributional-semantics.pdf) 
 
-We will demonstrate the idea of word context and counting how many times words appear together by using a linguistic search engine that finds and lists all contexts in which a word appears, and counts the number of times other words appear next to it (i.e. the word's collocates).
+We will demonstrate the idea of using a word's context to create a representation of that word by using a linguistic search engine, [WebCorp](https://www.webcorp.org.uk/). WebCorp allows us to find and list all contexts on the web in which a word appears, and to count the number of times other words appear next to it. We call these the the word's collocates).
 
 - [Demonstration: WebCorp](https://www.webcorp.org.uk/)
 
 **Practical**
 
-This practical builds word vectors using data from the [iWeb corpus](https://www.english-corpora.org/iweb/): a corpus of 14 billion words in 22 million systematically selected English language web pages. This can be searched and analysed using the tools at [English-Corpora.org](https://www.english-corpora.org/). We have used these tools to look at a few words, and to find what other words appear in their context (on the same web page). We have saved these in a spreadsheet, which has one sheet for each of our words:
+This practical builds word vectors using data from the [iWeb corpus](https://www.english-corpora.org/iweb/): a corpus of 14 billion words in 22 million systematically selected English language web pages. This can be searched and analysed using the tools at [English-Corpora.org](https://www.english-corpora.org/). We have used these tools to look at a few words, and to find what other words appear in their context. In this case, we define context as being on the same web page. We have saved the context counts in a spreadsheet, which has one sheet for each of our words:
 
 - [Word context data](./practicals/contexts.xlsx) (click the "View raw" button to download, tnen open on your computer)
 
-Use this spreadsheet with the Python notebook below to build and explore some word vectors:
+You can use this spreadsheet with the Python notebook below to build and explore some word vectors:
 
 - [Vector semantics - Python notebook](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/plot_contexts.ipynb)
 
 ## Playing with word embeddings
 [[back to top]](#start-of-content)
+
+The simple word and document vectors we built above can be used in NLP and information retrieval applications, but they have a few shortcomings, and better distributional semantics solutions exist: **word embeddings**. Whereas the vectors we have looked at so far are high dimensional with integer values, word embeddings are much lower dimensional (maybe a few hundred dimensions), with real number values. The most popular of these is Google's [Word2Vec](https://www.tensorflow.org/text/tutorials/word2vec) and Stanford University's [GloVe](https://nlp.stanford.edu/projects/glove/). We will use both of these in the practical below.
 
 **Presentation**
 - [Word embeddings](./presentations/word-embeddings.pdf) 
