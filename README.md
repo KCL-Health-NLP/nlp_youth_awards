@@ -36,6 +36,7 @@
 - [Introductory presentation](./presentations/introduction.pdf) 
 
 ## Representing language: documents
+[[back to top]](#start-of-content)
 
 **Shakespeare's plays as vectors**
 *Original idea from Jurafsky and Martin, [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/), Draft 3rd Edition.*
@@ -65,7 +66,7 @@ If we want to manipulate and analyse language computationally, we first need to 
 - Can you think of a way to represent words?
 
 ## Representing words: vector semantics
-
+[[back to top]](#start-of-content)
 
 
 We will demonstrate word context vectors using the [iWeb corpus](https://www.english-corpora.org/iweb/): a corpus of 14 billion words in 22 million systematically selected English language web pages. This can be searched and analysed using the tools at [English-Corpora.org](https://www.english-corpora.org/). We have used these tools to look at a few words, and to find what other words appear in their context (on the same web page). We have saved these in a spreadsheet, which has one sheet for each of our words:
@@ -81,6 +82,7 @@ We will demonstrate word context vectors using the [iWeb corpus](https://www.eng
 - [Vector semantics - Python notebook](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/plot_contexts.ipynb)
 
 ## Playing with word embeddings
+[[back to top]](#start-of-content)
 
 **Presentation**
 - [Word embeddings](./presentations/word-embeddings.pdf) 
@@ -91,6 +93,7 @@ We will demonstrate word context vectors using the [iWeb corpus](https://www.eng
 
 
 ## Neural networks
+[[back to top]](#start-of-content)
 
 **Presentation**
 - [Neural networks](./presentations/neural-networks.pdf) 
@@ -101,6 +104,7 @@ We will demonstrate word context vectors using the [iWeb corpus](https://www.eng
 - [Neural network playground](https://playground.tensorflow.org/)
 
 ## Generative AI
+[[back to top]](#start-of-content)
 
 **Presentation**
 - [Transformers and generative AI](./presentations/transformers.pdf) 
