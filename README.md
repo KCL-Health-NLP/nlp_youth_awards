@@ -9,8 +9,8 @@
 ## Contents
 
 1. [Introduction](#introduction)
-1. [Representing language - documents](#representing-language-documents)
-1. [Representing words - vector semantics](#representing-words-vector-semantics)
+1. [Representing language: documents](#representing-language-documents)
+1. [Representing words: vector semantics](#representing-words-vector-semantics)
 1. [Playing with word embedding](#playing-with-word-embeddings)
 1. [Neural networks](#neural-networks)
 1. [Generative AI](#generative-ai)
@@ -33,7 +33,7 @@
 ### Presentation
 
 
-## Representing language - documents
+## Representing language: documents
 ### Shakespeare's plays as vectors
 *Original idea from Jurafsky and Martin, [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/), Draft 3rd Edition.*
 
@@ -61,7 +61,7 @@ If we want to manipulate and analyse language computationally, we first need to 
 - Can you think of any uses for this document representation?
 - Can you think of a way to represent words?
 
-## Representing words - vector semantics
+## Representing words: vector semantics
 
 
 
