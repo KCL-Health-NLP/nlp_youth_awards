@@ -16,7 +16,7 @@
 1. [Generative AI](#generative-ai)
 
 ## Introduction
-[back to top](#start-of-content)
+[[back to top]](#start-of-content)
 
 - This repository contains all the material you will need for the NLP day on the Biostatistics and Health Informatics Youth Awards Programme
 - The day will consist of six practicals to explore topics in NLP and neural networks
