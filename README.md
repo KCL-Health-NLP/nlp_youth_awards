@@ -21,8 +21,8 @@
 
 ## Contents
 
-1. [Introduction](#intro)
-2. [Generative AI](#GenAI)
+1. [Introduction](#introduction)
+2. [Generative AI](#generative-ai)
 
 ## 1 - Introduction {#intro}
 
