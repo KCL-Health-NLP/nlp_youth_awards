@@ -24,7 +24,7 @@
 1. [Introduction](#introduction)
 2. [Generative AI](#generative-ai)
 
-## 1 - Introduction {#intro}
+## Introduction
 
 - Why NLP?
 - 
@@ -71,7 +71,7 @@ We have written a Python notebook to examine these words:
 
 [Neural network playground](https://playground.tensorflow.org/)
 
-## 6 - Generative AI {#GenAI}
+## Generative AI
 
 - [Connecting to Hugging Face](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//hugging_face.ipynb)
 - [Experiments with Llama](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//llama.ipynb)
