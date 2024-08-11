@@ -5,6 +5,11 @@
 **King's College London Institute of Psychiatry, Psychology and Neuroscience**
 
 ---
+## TO DO
+- split neural network presentation in to two
+- write transformers / gen AI presentation
+- check practicals work
+- edit practicals as needed / to improve / remove un-needed bits
 
 ## Contents
 
