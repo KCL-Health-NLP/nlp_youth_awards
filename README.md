@@ -48,7 +48,7 @@ We will start by looking at how we might represent documents. We are going to do
 - Take care with *wit* - it is also found in common words like *with* - how will you overcome this?
 - Enter your results in [this spreadsheet](https://docs.google.com/spreadsheets/d/1W-NI1-CAufuXTCHISsbwvnqY5krQVnsAxqX2IKpNcVg/edit?usp=sharing)
 
-## 2 - Word context vectors
+## 2 - Vector semantics
 
 We will build word context vectors using the [iWeb corpus](https://www.english-corpora.org/iweb/): a corpus of 14 billion words in 22 million systematically selected English language web pages. This can be searched and analysed using the tools at [English-Corpora.org](https://www.english-corpora.org/). We have used these tools to look at a few words, and to find what other words appear in their context (on the same web page). We have saved these in a spreadsheet, which has one sheet for each of our words:
 
