@@ -22,17 +22,20 @@
 ## Contents
 
 1. [Introduction](#introduction)
-2. [Generative AI](#generative-ai)
+1. [Generative AI](#generative-ai)
 
 ## Introduction
 
-- Why NLP?
-- 
+- Why study NLP?
+- Why study NLP in a Biostatistics and Health Informatics department?
 
-## 2 - Shakespeare's plays as vectors
+  
+
+## Representing language - documents
+### Shakespeare's plays as vectors
 *Original idea from Jurafsky and Martin, [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/), Draft 3rd Edition.*
 
-We will start by looking at how we might represent documents. We are going to do a simple analysis of Shakespeare's plays, which are available in digital form from a USA library, the [Folger Shakespeare Library](https://www.folger.edu/explore/shakespeares-works/download/). We will look at the plain text of four plays:
+If we want to manipulate and analyse language computationally, we first need to find a way to represent language. We will start by looking at how we might represent documents. We are going to do a simple analysis of Shakespeare's plays, which are available in digital form from a USA library, the [Folger Shakespeare Library](https://www.folger.edu/explore/shakespeares-works/download/). We will look at the plain text of four plays:
 
 - [As You Like It](https://flgr.sh/txtfssAYLtxt)
 - [Twelfth Night](https://flgr.sh/txtfssTN_txt)
@@ -45,18 +48,28 @@ We will start by looking at how we might represent documents. We are going to do
 - Count the number of times your word occurs in your play
 - A simple way to do this is to use CTRL-F in your browser - this finds words in a page
 - The dialog box in which you type the search word will tell you how many times it occurs
-- Take care with *wit* - it is also found in common words like *with* - how will you overcome this?
 - Enter your results in [this spreadsheet](https://docs.google.com/spreadsheets/d/1W-NI1-CAufuXTCHISsbwvnqY5krQVnsAxqX2IKpNcVg/edit?usp=sharing)
 
-## 2 - Vector semantics
+**Questions**
 
-We will build word context vectors using the [iWeb corpus](https://www.english-corpora.org/iweb/): a corpus of 14 billion words in 22 million systematically selected English language web pages. This can be searched and analysed using the tools at [English-Corpora.org](https://www.english-corpora.org/). We have used these tools to look at a few words, and to find what other words appear in their context (on the same web page). We have saved these in a spreadsheet, which has one sheet for each of our words:
+- *Wit* is also found in common words like *with* - how will you overcome this?
+- Can we tell the difference between Shakespeare's comedies (e.g. As You Like It, Twelfth Night) and other plays?
+- How might you represent a document?
+- How might you visualise this?
+- Can you think of any uses for this document representation?
+- Can you think of a way to represent words?
+
+## Representing words - vector semantics
+
+
+
+We will demonstrate word context vectors using the [iWeb corpus](https://www.english-corpora.org/iweb/): a corpus of 14 billion words in 22 million systematically selected English language web pages. This can be searched and analysed using the tools at [English-Corpora.org](https://www.english-corpora.org/). We have used these tools to look at a few words, and to find what other words appear in their context (on the same web page). We have saved these in a spreadsheet, which has one sheet for each of our words:
 
 - [Word context data](./contexts.xlsx) (click the "View raw" button to download, tnen open on your computer)
 
-We have written a Python notebook to examine these words:
+**Practical**
 
-[Python notebook exercise](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//plot_contexts.ipynb)
+- [Vector semantics - Python notebook](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//plot_contexts.ipynb)
 
 ## 3 - Playing with word embeddings
 
