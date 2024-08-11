@@ -22,7 +22,7 @@
 - The day will consist of six practicals to explore topics in NLP and neural networks
 - Each practical will be introduced by short presentations of around 5 minutes each
 
-### Python
+**Python**
 
 - Practicals will be in the Python programming language
 - Don't worry if you don't know any Python, you do not need to write any code
@@ -53,8 +53,8 @@ If we want to manipulate and analyse language computationally, we first need to 
 - Each person will be allocated a play from the above list, and a word
 - Count the number of times your word occurs in your play
 - A simple way to do this is to use CTRL-F in your browser - this finds words in a page
-- The dialog box in which you type the search word will tell you how many times it occurs
-- Enter your results in [this spreadsheet](https://docs.google.com/spreadsheets/d/1W-NI1-CAufuXTCHISsbwvnqY5krQVnsAxqX2IKpNcVg/edit?usp=sharing)
+- The dialog box in which you type the search word will tell you how many times that word occurs in the page
+- Record your results in [this spreadsheet](https://docs.google.com/spreadsheets/d/1W-NI1-CAufuXTCHISsbwvnqY5krQVnsAxqX2IKpNcVg/edit?usp=sharing)
 
 **Questions**
 
@@ -68,16 +68,23 @@ If we want to manipulate and analyse language computationally, we first need to 
 ## Representing words: vector semantics
 [[back to top]](#start-of-content)
 
+We've seen how to represent documents as vectors, but what about words themselves? 
 
-We will demonstrate word context vectors using the [iWeb corpus](https://www.english-corpora.org/iweb/): a corpus of 14 billion words in 22 million systematically selected English language web pages. This can be searched and analysed using the tools at [English-Corpora.org](https://www.english-corpora.org/). We have used these tools to look at a few words, and to find what other words appear in their context (on the same web page). We have saved these in a spreadsheet, which has one sheet for each of our words:
+**Presentation and demonstration**  
+
+- [Presentation: distributional semantics](./presentations/distributional-semantics.pdf) 
+
+We will demonstrate the idea of word context and counting how many times words appear together by using the linguistic search engine that finds and lists all contexts in which a word appears, and counts the number of times other words apear next to it (i.e. the word's collocates).
+
+- [WebCorp](https://www.webcorp.org.uk/)
+
+**Practical**
+
+We will then build word vectors using the [iWeb corpus](https://www.english-corpora.org/iweb/): a corpus of 14 billion words in 22 million systematically selected English language web pages. This can be searched and analysed using the tools at [English-Corpora.org](https://www.english-corpora.org/). We have used these tools to look at a few words, and to find what other words appear in their context (on the same web page). We have saved these in a spreadsheet, which has one sheet for each of our words:
 
 - [Word context data](./practicals/contexts.xlsx) (click the "View raw" button to download, tnen open on your computer)
 
-**Presentation**  
-- [Distributional semantics](./presentations/distributional-semantics.pdf) 
-
-
-**Practical**
+Use this spreadsheet with the Python notebook below to build word vectors:
 
 - [Vector semantics - Python notebook](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/plot_contexts.ipynb)
 
