@@ -32,6 +32,7 @@
 
 **Presentation**
 
+- [Introductory presentation](./presentations/introduction.pdf) 
 
 ## Representing language: documents
 
@@ -68,25 +69,41 @@ If we want to manipulate and analyse language computationally, we first need to 
 
 We will demonstrate word context vectors using the [iWeb corpus](https://www.english-corpora.org/iweb/): a corpus of 14 billion words in 22 million systematically selected English language web pages. This can be searched and analysed using the tools at [English-Corpora.org](https://www.english-corpora.org/). We have used these tools to look at a few words, and to find what other words appear in their context (on the same web page). We have saved these in a spreadsheet, which has one sheet for each of our words:
 
-- [Word context data](./contexts.xlsx) (click the "View raw" button to download, tnen open on your computer)
+- [Word context data](./practicals/contexts.xlsx) (click the "View raw" button to download, tnen open on your computer)
+
+**Presentation**  
+- [Distributional semantics](./presentations/distributional-semantics.pdf) 
+
 
 **Practical**
 
-- [Vector semantics - Python notebook](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//plot_contexts.ipynb)
+- [Vector semantics - Python notebook](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/plot_contexts.ipynb)
 
 ## Playing with word embeddings
 
-[Word embedding exercise](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/embeddings.ipynb)
+**Presentation**
+- [Word embeddings](./presentations/word-embeddings.pdf) 
+
+**Practical**
+
+- [Word embeddings - Python notebook](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/embeddings.ipynb)
 
 
 ## Neural networks
 
-[Experiments with a single neuron](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//perceptrons.ipynb)
+**Presentation**
+- [Neural networks](./presentations/neural-networks.pdf) 
 
 
-[Neural network playground](https://playground.tensorflow.org/)
+**Practicals**
+- [Experiments with a single neuron](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/perceptrons.ipynb)
+- [Neural network playground](https://playground.tensorflow.org/)
 
 ## Generative AI
 
-- [Connecting to Hugging Face](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//hugging_face.ipynb)
-- [Experiments with Llama](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main//llama.ipynb)
+**Presentation**
+- [Transformers and generative AI](./presentations/transformers.pdf) 
+
+**Practicals**
+- [Connecting to Hugging Face](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/hugging_face.ipynb)
+- [Experiments with Llama](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/llama.ipynb)
