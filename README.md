@@ -30,11 +30,12 @@
 - You will need a Gmail / Google account to use Colab
 - If you do not have a Gmail account, [please create one now](https://support.google.com/mail/answer/56256?hl=en-GB) 
 
-### Presentation
+**Presentation**
 
 
 ## Representing language: documents
-### Shakespeare's plays as vectors
+
+**Shakespeare's plays as vectors**
 *Original idea from Jurafsky and Martin, [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/), Draft 3rd Edition.*
 
 If we want to manipulate and analyse language computationally, we first need to find a way to represent language. We will start by looking at how we might represent documents. We are going to do a simple analysis of Shakespeare's plays, which are available in digital form from a USA library, the [Folger Shakespeare Library](https://www.folger.edu/explore/shakespeares-works/download/). We will look at the plain text of four plays:
