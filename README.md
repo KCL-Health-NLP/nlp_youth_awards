@@ -32,6 +32,7 @@
 
 **Presentation**
 
+- [Introductory presentation](./presentations/introduction.pdf) 
 
 ## Representing language: documents
 
