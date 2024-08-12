@@ -13,7 +13,7 @@
 1. [Introduction](#introduction)
 1. [Representing language: documents](#representing-language-documents)
 1. [Representing words: vector semantics](#representing-words-vector-semantics)
-1. [Playing with word embedding](#playing-with-word-embeddings)
+1. [Playing with word embeddings](#playing-with-word-embeddings)
 1. [Neural networks](#neural-networks)
 1. [Generative AI](#generative-ai)
 
