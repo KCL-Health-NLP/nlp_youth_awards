@@ -1,3 +1,4 @@
+<a name="top"/>
 # Natural Language Processing
 
 **Biostatistics and Health Infromatics Youth Awards Programme**
@@ -5,11 +6,7 @@
 **King's College London Institute of Psychiatry, Psychology and Neuroscience**
 
 ---
-## TO DO
-- write transformers / gen AI linking text
-- edit practicals as needed / to improve / remove un-needed bits
 
-<a name="top"/>
 
 ## Contents
 
@@ -131,9 +128,15 @@ Let's play with a bigger network, to solve more complex problems:
 ## Generative AI
 [[back to top]](#top)
 
+Now that we've got some idea of how neural networks work, we will look at some examples of more complex *transformer* networks as used in state-of-the-art NLP. These are the ones you see mentioned as generative AI in the news and have quite likley used yoursleves - ChatGPT and friends. We can't hope to go over all of the details, but will introduce some of the basic concepts and will run a model for you to play with.
+
 **Presentation**
+In this presentation we introduce the transformer architecture, and it's key component - the self-attention block. We will also talk about the output of these models - a probability distribution over a vocabulary.
 - [Presentation: transformers and generative AI](./presentations/generative-models.pdf) 
 
 **Practicals**
+For the practicals, we will use Meta's Llama 3 large language mmodel. This is too big for you to comfortably donwload and install, so we will host it on a cloud platform run by an AI company, Hugging Face. In order to use the model, you will need to create a Hugging Face account. This is explained in the first practical: 
 - [Python notebook: connecting to Hugging Face](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/hugging_face.ipynb)
+
+  In the second practical, we explore a key concept in the use of large language models - writing questions to get back consistent and useful information from the LLM - this is *prompt engineering*. We will also look at how we might give the LLM examples of the kinds of answers we want - referred to as *few shot learning*.
 - [Python notebook: experiments with Llama 3](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/llama.ipynb)
