@@ -83,11 +83,11 @@ We've seen how to represent documents as vectors, but what about words themselve
 
 **Practical:** This practical builds word vectors using data from the [iWeb corpus](https://www.english-corpora.org/iweb/): a corpus of 14 billion words in 22 million systematically selected English language web pages. This can be searched and analysed using the tools at [English-Corpora.org](https://www.english-corpora.org/). We have used these tools to look at a few words, and to find what other words appear in their context. In this case, we define context as being on the same web page. We have saved the context counts in a spreadsheet, which has one sheet for each of our words:
 
-- [Word context data](./practicals/contexts.xlsx) (click the "View raw" button to download, tnen open on your computer)
+- [Data: word contexts](./practicals/contexts.xlsx) (click the "View raw" button to download, tnen open on your computer)
 
 You can use this spreadsheet with the Python notebook below to build and explore some word vectors:
 
-- [Vector semantics - Python notebook](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/plot_contexts.ipynb)
+- [Python notebook: vector semantics](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/plot_contexts.ipynb)
 
 ## Playing with word embeddings
 [[back to top]](#top)
@@ -96,12 +96,12 @@ The simple word and document vectors we built above can be used in NLP and infor
 
 **Presentation:**
 This presentation gives a high level, intuitive overview of word embeddings. For more details, and information on how they are built, see the links above and Chapter 6 in [Jurafsky and Martin](https://web.stanford.edu/~jurafsky/slp3/)
-- [Word embeddings](./presentations/word-embeddings.pdf) 
+- [Presentation: word embeddings](./presentations/word-embeddings.pdf) 
 
 **Practical:**
 In this practical, you will create a word embedding from a small corpus and test it. It won't be very good! Then you will load an embedding that has been pre-trained on a much bigger corpus, to see the difference this makes.
 
-- [Word embeddings - Python notebook](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/embeddings.ipynb)
+- [Python notebook: word embeddings](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/embeddings.ipynb)
 
 
 ## Neural networks
@@ -113,27 +113,27 @@ Many modern NLP models make use of neural networks to do this kind of prediction
 
 **Presentation:**
 In this presentation we introduce a single artificial neuron, called a perceptron. 
-- [Perceptron presentation](./presentations/neural-networks.pdf) 
+- [Presentation: a perceptron](./presentations/neural-networks.pdf) 
 
 **Practical:**
 In this practical, we build a perceptron in Python, use it to model some simple problems, and ask - what is the limit of it's representational power?
-- [Experiments with a single neuron](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/perceptrons.ipynb)
+- [Python notebook: experiments with a single neuron](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/perceptrons.ipynb)
 
 **Presentation:**
 In this presentaiton we look at how we can extend the power of our perceptron, by using multiple neurons:
-- [Multi-layer neural networks](./presentations/multi-layer-neural-networks.pdf) 
+- [Presentation: multi-layer neural networks](./presentations/multi-layer-neural-networks.pdf) 
 
 **Practical:**
 Let's play with a bigger network, to solve more complex problems:
-- [Neural network playground](https://playground.tensorflow.org/)
+- [Web site: neural network playground](https://playground.tensorflow.org/)
 
 
 ## Generative AI
 [[back to top]](#top)
 
 **Presentation**
-- [Transformers and generative AI](./presentations/generative-models.pdf) 
+- [Presentation: transformers and generative AI](./presentations/generative-models.pdf) 
 
 **Practicals**
-- [Connecting to Hugging Face](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/hugging_face.ipynb)
-- [Experiments with Llama](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/llama.ipynb)
+- [Python notebook: connecting to Hugging Face](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/hugging_face.ipynb)
+- [Python notebook: experiments with Llama 3](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/llama.ipynb)
