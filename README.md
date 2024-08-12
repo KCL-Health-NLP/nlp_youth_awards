@@ -6,9 +6,8 @@
 
 ---
 ## TO DO
-- split neural network presentation in to two
 - write transformers / gen AI presentation
-- check practicals work
+- check last two practicals
 - edit practicals as needed / to improve / remove un-needed bits
 
 <a name="top"/>
@@ -123,7 +122,7 @@ In this practical, we build a perceptron in Python, use it to model some simple 
 
 **Presentation:**
 In this presentaiton we look at how we can extend the power of our perceptron, by using multiple neurons:
-- [Neural networks presentation 2](./presentations/neural-networks.pdf) 
+- [Neural networks presentation 2](./presentations/multi-layer-neural-networks.pdf) 
 
 **Practical:**
 Let's play with a bigger network, to solve more complex problems:
