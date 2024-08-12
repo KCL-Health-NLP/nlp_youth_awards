@@ -11,6 +11,8 @@
 - check practicals work
 - edit practicals as needed / to improve / remove un-needed bits
 
+<a name="top"/>
+
 ## Contents
 
 1. [Introduction](#introduction)
@@ -21,7 +23,7 @@
 1. [Generative AI](#generative-ai)
 
 ## Introduction
-[[back to top]](#start-of-content)
+[[back to top]](#top)
 
 - This repository contains all the material you will need for the NLP day on the Biostatistics and Health Informatics Youth Awards Programme
 - The day will consist of six practicals to explore topics in NLP and neural networks
@@ -41,7 +43,7 @@
 - [Introductory presentation](./presentations/introduction.pdf) 
 
 ## Representing language: documents
-[[back to top]](#start-of-content)
+[[back to top]](#top)
 
 **Shakespeare's plays as vectors**
 *Original idea from Jurafsky and Martin, [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/), Draft 3rd Edition.*
@@ -71,7 +73,7 @@ If we want to manipulate and analyse language computationally, we first need to 
 - Can you think of a way to represent words?
 
 ## Representing words: vector semantics
-[[back to top]](#start-of-content)
+[[back to top]](#top)
 
 We've seen how to represent documents as vectors, but what about words themselves? 
 
@@ -90,7 +92,7 @@ You can use this spreadsheet with the Python notebook below to build and explore
 - [Vector semantics - Python notebook](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/plot_contexts.ipynb)
 
 ## Playing with word embeddings
-[[back to top]](#start-of-content)
+[[back to top]](#top)
 
 The simple word and document vectors we built above can be used in NLP and information retrieval applications, but they have a few shortcomings, and better distributional semantics solutions exist: **word embeddings**. Whereas the vectors we have looked at so far are high dimensional with integer values, word embeddings are much lower dimensional (maybe a few hundred dimensions), with real number values. The most popular of these is Google's [Word2Vec](https://www.tensorflow.org/text/tutorials/word2vec) and Stanford University's [GloVe](https://nlp.stanford.edu/projects/glove/). We will use both of these in the practical below.
 
@@ -105,7 +107,7 @@ In this practical, you will create a word embedding from a small corpus and test
 
 
 ## Neural networks
-[[back to top]](#start-of-content)
+[[back to top]](#top)
 
 We now have some ideas of how we might represent words and language numerically, encoding some aspects of meaning. We could use these representations in the type of models you will have seen in the prediction modelling part of the Youth Awards. For example, you could build a model that takes document vectors of product reviews as input, and predicts whether the review is a positive or negative one. Or, you might take vectors representing medical record sentences and predict whether the sentence is about a particular symptom. 
 
@@ -129,7 +131,7 @@ Let's play with a bigger network, to solve more complex problems:
 
 
 ## Generative AI
-[[back to top]](#start-of-content)
+[[back to top]](#top)
 
 **Presentation**
 - [Transformers and generative AI](./presentations/transformers.pdf) 
