@@ -6,8 +6,7 @@
 
 ---
 ## TO DO
-- write transformers / gen AI presentation
-- check last two practicals
+- write transformers / gen AI linking text
 - edit practicals as needed / to improve / remove un-needed bits
 
 <a name="top"/>
@@ -133,7 +132,7 @@ Let's play with a bigger network, to solve more complex problems:
 [[back to top]](#top)
 
 **Presentation**
-- [Transformers and generative AI](./presentations/transformers.pdf) 
+- [Transformers and generative AI](./presentations/generative-models.pdf) 
 
 **Practicals**
 - [Connecting to Hugging Face](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/hugging_face.ipynb)
