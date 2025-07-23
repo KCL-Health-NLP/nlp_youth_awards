@@ -142,3 +142,4 @@ For the practicals, we will use Meta's Llama 3 large language mmodel. This is to
 In the second practical, we explore a key concept in the use of large language models - writing questions to get back consistent and useful information from the LLM - this is *prompt engineering*. We will also look at how we might give the LLM examples of the kinds of answers we want - referred to as *few shot learning*.
 
 - [Python notebook: experiments with Llama 3](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/llama.ipynb)
+- [https://f9ctlf1rpteiq2sb.eu-west-1.aws.endpoints.huggingface.cloud](https://f9ctlf1rpteiq2sb.eu-west-1.aws.endpoints.huggingface.cloud)
