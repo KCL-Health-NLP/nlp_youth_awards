@@ -135,10 +135,6 @@ In this presentation we introduce the transformer architecture, and it's key com
 - [Presentation: transformers and generative AI](./presentations/generative-models.pdf) 
 
 **Practicals**
-For the practicals, we will use Meta's Llama 3 large language mmodel. This is too big for you to comfortably donwload and install, so we will host it on a cloud platform run by an AI company, Hugging Face. In order to use the model, you will need to create a Hugging Face account. This is explained in the first practical: 
-
-- [Python notebook: connecting to Hugging Face](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/hugging_face.ipynb)
-
-In the second practical, we explore a key concept in the use of large language models - writing questions to get back consistent and useful information from the LLM - this is *prompt engineering*. We will also look at how we might give the LLM examples of the kinds of answers we want - referred to as *few shot learning*.
+For the practicals, we will use Meta's Llama 3 large language mmodel. This is too big for you to comfortably donwload and install, so we will host it on a cloud platform run by an AI company, Hugging Face. We will explore a key concept in the use of large language models - writing questions to get back consistent and useful information from the LLM - this is *prompt engineering*. We will also look at how we might give the LLM examples of the kinds of answers we want - referred to as *few shot learning*.
 
 - [Python notebook: experiments with Llama 3](https://githubtocolab.com/KCL-Health-NLP/nlp_youth_awards/blob/main/practicals/llama.ipynb)
